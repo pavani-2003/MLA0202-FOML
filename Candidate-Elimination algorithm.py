@@ -1,6 +1,6 @@
 import csv
 
-with open("C:\\Users\\P Sai vinitha\\OneDrive\\Desktop\\foml\\ws.csv") as f:
+with open("C:\\Users\\k pavani\\OneDrive\\Desktop\\foml\\ws.csv") as f:
     csv_file=csv.reader(f)
     data=list(csv_file)
     
