@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-d = pd.read_csv("C:\\Users\\P Sai vinitha\\OneDrive\\Desktop\\foml\\ws.csv") 
+d = pd.read_csv("C:\\Users\\k pavani\\OneDrive\\Desktop\\foml\\ws.csv") 
 print(d)
 
 a = np.array(d)[:,:-1] 
