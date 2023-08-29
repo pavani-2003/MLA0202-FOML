@@ -9,7 +9,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import PassiveAggressiveClassifier
 from sklearn.metrics import classification_report
 
-iris= pd.read_csv("C:\\Users\\P Sai vinitha\\OneDrive\\Desktop\\foml\\iris.csv")
+iris= pd.read_csv("C:\\Users\\k pavani\\OneDrive\\Desktop\\foml\\iris.csv")
 print(iris.head())
 
 x = iris.drop("species", axis=1)
