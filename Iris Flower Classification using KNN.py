@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-iris = pd.read_csv("C:\\Users\\P Sai vinitha\\OneDrive\\Desktop\\foml\\iris.csv")
+iris = pd.read_csv("C:\\Users\\k pavani\\OneDrive\\Desktop\\foml\\iris.csv")
 print(iris.head()) 
 print()
 print(iris.describe())
