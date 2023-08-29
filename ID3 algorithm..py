@@ -2,7 +2,7 @@ import math
 import csv
 
 def load_csv(exp):
-    lines = csv.reader(open("C:\\Users\\P Sai vinitha\\OneDrive\\Desktop\\foml\\exp.csv"  , "r"))
+    lines = csv.reader(open("C:\\Users\\k pavani\\OneDrive\\Desktop\\foml\\exp.csv"  , "r"))
     dataset = list(lines)
     headers = dataset.pop(0)
     return dataset, headers
