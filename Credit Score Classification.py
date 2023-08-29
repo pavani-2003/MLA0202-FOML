@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import plotly.io as pio
 pio.templates.default = "plotly_white"
 
-data = pd.read_csv("C:\\Users\\P Sai vinitha\\OneDrive\\Desktop\\foml\\CREDITSCORE.csv")
+data = pd.read_csv("C:\\Users\\k pavani\\OneDrive\\Desktop\\foml\\CREDITSCORE.csv")
 print(data.head())
 
 print(data.info())
