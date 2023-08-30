@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 import plotly.io as io
 io.renderers.default='browser'
 
-data = pd.read_csv("C:\\Users\\P Sai vinitha\\OneDrive\\Desktop\\foml\\futuresales pred.csv")
+data = pd.read_csv("C:\\Users\\k pavani \\OneDrive\\Desktop\\foml\\futuresales pred.csv")
 print(data.head())
 print(data.sample(5))
 print(data.isnull().sum())
