@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv("C:\\Users\\P Sai vinitha\\OneDrive\\Desktop\\foml\\mobile_price.csv")
+data = pd.read_csv("C:\\Users\\k pavani\\OneDrive\\Desktop\\foml\\mobile_price.csv")
 print(data.head())
 plt.figure(figsize=(12, 10))
 sns.heatmap(data.corr(), annot=True, cmap="coolwarm", linecolor='white', linewidths=1)
