@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-dataset = pd.read_csv("C:\\Users\\P Sai vinitha\\OneDrive\\Desktop\\foml\\breastcancer.csv")
+dataset = pd.read_csv("C:\\Users\\k pavani\\OneDrive\\Desktop\\foml\\breastcancer.csv")
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 
